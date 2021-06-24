@@ -1,4 +1,4 @@
-"""
+ 
 
 a = int(input("enter a num : "))
 sum = 0
@@ -11,9 +11,9 @@ if sum == a:
     print("armstrong")
 else:
     print("not armstrong")
-"""
+ 
 
-"""
+ 
 n=int(input("Enter any number: "))
 a=list(map(int,str(n)))
 b=list(map(lambda x:x**3,a))
@@ -21,13 +21,13 @@ if(sum(b)==n):
     print("The number is an armstrong number. ")
 else:
     print("The number isn't an arsmtrong number. ")
-"""
+ 
 
 
 
 
 
-"""
+ 
 
 num = int(input("Enter a num : "))
 
@@ -52,14 +52,14 @@ if sum == num:
 else:
     print("not strong")
 
-"""
+ 
 
-"""
+ 
 num = [43,5,56,56,67,23]
 
 print(sorted(num)[-2])
-"""
-"""
+ 
+ 
 lst = [23,233,423,2434,221,12]
 
 a = lst[0]
@@ -73,9 +73,9 @@ lst[-1] = b
 
 print(lst)
 
-"""
+ 
 
-"""
+ 
 val = input("enter string ")
 
 pal = val[::-1]
@@ -84,9 +84,9 @@ if pal == val:
     print("palindrome")
 else:
     print("not palindrome")
-"""
+ 
 
-"""
+ 
 sent = input("enter sentence : ")
 avg = 0
 c = 0
@@ -99,16 +99,16 @@ for word in sent.split():
 
 print("avg : ",(avg/c))
 
-"""
-"""
+ 
+ 
 n1 = input("enter num 1 +ve or -ve ")
 n2 = input("enter num 2 +ve or -ve ")
 
 print(eval(n1)+eval(n2))
 
-"""
+ 
 
-"""
+ 
 import collections
 val = input("enter the string :  ")
 new = collections.Counter(val)
@@ -118,8 +118,8 @@ for i, x in enumerate(val):
         print(i)
         exit()
 print("-1")
-"""
-"""
+ 
+ 
 s = "radkar"
 for i in range(len(s)):
     t = s[:i] + s[i+1:]
@@ -129,10 +129,10 @@ for i in range(len(s)):
         print("palin")
     else:
         print("not")
-"""
+ 
 
 
-"""
+ 
 nums = [1,None,2,3,None,None,5,None]
 valid = 0
 for x,i in enumerate(nums): 
@@ -142,9 +142,9 @@ for x,i in enumerate(nums):
             nums[x] = valid
 print(nums)
 
-"""
+ 
 
-"""
+ 
 sentence1 = 'We are really pleased to meet you in our city'
 sentence2 = 'The city was hit by a really heavy storm'
 
@@ -155,9 +155,9 @@ print(sorted(set1 | set2))
 print(sorted(set1 & set2))
 
 
-"""
+ 
 
-"""
+ 
 n = int(input("enter a num : "))
 primes = []
 
@@ -173,7 +173,7 @@ for num in range(n+1):
             primes.append(num)
 
 print(primes)
-"""
+ 
 
 k = int(input("enter a num "))
 for i in range(k):
